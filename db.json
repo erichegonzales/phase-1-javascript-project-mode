@@ -1,0 +1,20 @@
+{
+  "images": [
+    {
+      "date": "2017-02-12",
+      "title": "Comet 45P Passes Near the Earth",
+      "url": "https://apod.nasa.gov/apod/image/1702/Comet45Pv2_Hemmerich_960.jpg",
+      "explanation": "A large snowball has just passed the Earth. Known as Comet 45P/Honda�Mrkos�Pajdu��kov�\", or 45P for short, the comet came 10 times closer to Earth yesterday than the Earth ever gets to the Sun.  During this passage, the comet was photographed sporting a thin ion tail and a faint but expansive green coma. The green color is caused mostly by energized molecules of carbon. Comet 45P became just bright enough to see with the unaided eye when it came closest to the Sun in December. Now, however, the comet is fading as it heads back out to near the orbit of Jupiter, where it spends most of its time.  The kilometer-sized nucleus of ice and dirt will return to the inner Solar System in 2022.",
+      "likes": "9",
+      "id": 1
+    },
+    {
+      "date": "2010-01-01",
+      "title": "Not a Blue Moon",
+      "url": "https://apod.nasa.gov/apod/image/1001/NBMoon_StefanoDeRosa_sm.jpg",
+      "explanation": "This bright Full Moon was captured on December 2nd, shining above a church overlooking the River Po, in Turin, Italy. It was the first Full Moon in December. Shining on celebrations of New Year's Eve, last night's Full Moon was the second Full Moon of December and so fits the modern definition of a Blue Moon - the second Full Moon in a month. Because the lunar cycle, Full Moon to Full Moon, spans 29.5 days, Blue Moons tend to occur in some month about every 2.5 years. Shining in the glare just above and right of December's first Full Moon is the Pleiades star cluster.   digg_url = 'http://apod.nasa.gov/apod/ap100101.html'; digg_skin = 'compact';",
+      "likes": "4",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+header {
+    font-size: 5pc;
+}
+
+body {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#camera-img {
+    width: 40%;
+}
+
+#add-image {
+    font-size: 20px;
+    width: 10%;
+}
+
+#dateLabel {
+    font-size: 20px;
+}
+
+/* http: //thenewcode.com/923/Using-The-HTML5-Date-Input */
+input[type=date] {
+    width: 15rem;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+#image-container {
+    display: center;
+    text-align: center;
+}
+
+i[class='fa fa-heart'] {
+    font-size: 2pc;
+    float: center;
+}
+
+i[class='fa-solid fa-trash-can'] {
+    font-size: 2pc;
+    float: right;
+}
+
+i[class='fa-solid fa-heart-crack'] {
+    font-size: 2pc;
+    float: left;
+}
+
+i[class='fa fa-heart']:hover {
+    color: red;
+}
+
+i[class='fa-solid fa-trash-can']:hover {
+    color: #808080;
+}
+
+i[class='fa-solid fa-heart-crack']:hover {
+    color: #00008b;
+}
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+img {
+    display: inline-block;
+    margin: auto;
+    height: auto;
+    width: 70%;
+}
+
+.card {
+    text-align: center;
+    height: 70%;
+    width: 65%;
+    padding: 1rem;
+    border: grey solid 5px;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 10px 10px purple
+}
+
+.card:hover {
+    transform: scale(1.02);
+    border: 5px solid gray;
+    cursor: pointer;
+}
