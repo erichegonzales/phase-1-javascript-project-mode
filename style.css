@@ -1,10 +1,22 @@
 header {
     font-size: 5pc;
+    color: black;
+    margin: 1pc;
 }
 
 body {
     text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('https://codemyui.com/wp-content/uploads/2019/06/Shooting-Star-Background-in-Pure-CSS-1.gif');
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+/* http: //i.stack.imgur.com/kx8MT.gif */
+
+#dateLabel {
+    color: white
 }
 
 #camera-img {
@@ -16,16 +28,24 @@ body {
     width: 10%;
 }
 
+#add-image:hover {
+    transform: scale(1.2);
+}
+
 #dateLabel {
     font-size: 20px;
 }
 
-/* http: //thenewcode.com/923/Using-The-HTML5-Date-Input */
+#footer {
+    padding: 3rem;
+}
+
 input[type=date] {
     width: 15rem;
     padding: 0.5rem;
     font-size: 20px;
 }
+/* http: //thenewcode.com/923/Using-The-HTML5-Date-Input */
 
 #image-container {
     display: center;
@@ -56,7 +76,7 @@ i[class='fa-solid fa-trash-can']:hover {
 }
 
 i[class='fa-solid fa-heart-crack']:hover {
-    color: #00008b;
+    color: #4169e1;
 }
 
 .card h2 {
@@ -73,19 +93,40 @@ img {
 }
 
 .card {
+    background-color: white;
     text-align: center;
     height: 70%;
     width: 65%;
     padding: 1rem;
-    border: grey solid 5px;
+    border: #4b0082 solid 7px;
     border-radius: 15px 15px 15px 15px;
     display: inline-grid;
     margin: 1rem 2rem;
-    box-shadow: 10px 10px purple
+    box-shadow: 10px 10px #6a5acd;
 }
 
 .card:hover {
     transform: scale(1.02);
-    border: 5px solid gray;
+    border: 7px solid #6a5acd;
+    box-shadow: 10px 10px #4b0082;
     cursor: pointer;
+}
+
+.glow {
+    font-size: 80px;
+    color: #282828;
+    text-align: center;
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    -moz-animation: glow 1.5s ease-in-out infinite alternate;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #191970, 0 0 40px #191970, 0 0 50px #191970;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6;
+    }
 }

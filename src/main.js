@@ -1,6 +1,14 @@
 const dateInput = document.getElementById('dateInput')
 const addImageBtn = document.getElementById('add-image')
 const imageContainer = document.getElementById('image-container')
+const footer = document.getElementById('footer')
+
+let todayMonth = new Date().getMonth().toString()
+let todayDay = new Date().getDate().toString()
+if (todayMonth.length === 1) todayMonth = todayMonth.padStart(2, '0')
+if (todayDay.length === 1) todayDay = todayDay.padStart(2, '0')
+const todayYear = new Date().getFullYear().toString()
+dateInput.setAttribute('max', `${todayYear}-${todayMonth}-${todayDay}`)
 
 let date
 let day
@@ -38,7 +46,9 @@ const postImage = async () => {
     })
     let req = await res.json()
     newImage = await renderImage(req)
-    imageContainer.append(newImage)
+    await imageContainer.append(newImage)
+    //footer.scrollIntoView()
+    imageContainer.lastChild.children[5].scrollIntoView()
 }
 
 dateInput.addEventListener('change', () => {
@@ -63,6 +73,8 @@ addImageBtn.addEventListener('click', (event) => {
     postImage()
     dateInput.value = ''
     day, month, year = '', '', ''
+    //window.alert('View your image below')
+    //imageContainer.lastChild.children[5].scrollIntoView()
 })
 
 const renderImage = async (input) => {
