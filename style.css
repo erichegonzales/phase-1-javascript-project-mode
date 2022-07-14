@@ -13,7 +13,22 @@ body {
     padding: 0;
     margin: 0;
 }
-/* http: //i.stack.imgur.com/kx8MT.gif */
+/* http: //i.stack.imgur.com/kx8MT.gif
+ */
+
+#date-input {
+    display: inline;
+}
+
+#or {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#space {
+    margin: 0 10px;
+}
 
 #dateLabel {
     color: white
@@ -23,9 +38,19 @@ body {
     width: 40%;
 }
 
+#random-image {
+    font-size: 16px;
+    width: 12%;
+}
+
+#random-image:hover {
+    transform: scale(1.2);
+}
+
 #add-image {
     font-size: 20px;
     width: 10%;
+    display: inline
 }
 
 #add-image:hover {

@@ -13,13 +13,25 @@
     <header class="glow">Astronomy Pictures of the Day</header>
     <br>
     <div id="date-input">
-        <label for="date" id="dateLabel">Choose a date between 06/16/1995 and Today's Date: </label>
-        <br>
+        <h2 id="dateLabel">Choose a date between 06/16/1995 and Today's Date: </h2>
         <input type="date" id="dateInput" min='1995-06-16' max='2022-07-31'></input>
     </div>
-    <br size="20">
+    <span id="space"></span>
     <button id="add-image">Add Image</button>
-    <br size="50">
+    <p id="or"> or </p>
+    <button id="random-image">Find a random image</button>
+
+    <!--
+    <div>
+        <br size="70">
+        <form id="search-form">
+            <input id='search' type='text' name='search'>
+            <input type='submit' name='submit' />
+        </form>
+    </div>
+    -->
+    <br>
+    <span id="space"></span>
     <div id="image-container"></div>
 </body>
 <footer id="footer"></footer>

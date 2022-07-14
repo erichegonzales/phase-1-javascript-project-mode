@@ -1,52 +1,36 @@
 {
   "images": [
     {
-      "date": "2022-06-07",
-      "title": "NGC 6188: Dragons of Ara",
-      "url": "https://apod.nasa.gov/apod/image/2206/Ngc6188_Robertson_960.jpg",
-      "explanation": "Do dragons fight on the altar of the sky?  Although it might appear that way, these dragons are illusions made of thin gas and dust. The emission nebula NGC 6188, home to the glowing clouds, is found about 4,000 light years away near the edge of a large molecular cloud unseen at visible wavelengths, in the southern constellation Ara (the Altar). Massive, young stars of the embedded Ara OB1 association were formed in that region only a few million years ago, sculpting the dark shapes and powering the nebular glow with stellar winds and intense ultraviolet radiation. The recent star formation itself was likely triggered by winds and supernova explosions, from previous generations of massive stars, that swept up and compressed the molecular gas. Joining NGC 6188 on this cosmic canvas, visible toward the lower right, is rare emission nebula NGC 6164, also created by one of the region's massive O-type stars. Similar in appearance to many planetary nebulae, NGC 6164's striking, symmetric gaseous shroud and faint halo surround its bright central star near the bottom edge. This impressively wide field of view spans over 2 degrees (four full Moons), corresponding to over 150 light years at the estimated distance of NGC 6188.",
+      "date": "2004-04-09",
+      "title": "NGC 4565: Galaxy on the Edge",
+      "url": "https://apod.nasa.gov/apod/image/0404/n4565_hugo_c32.jpg",
+      "explanation": "Magnificent spiral galaxy NGC 4565 is viewed edge-on from planet Earth. Also known as the Needle Galaxy for its narrow profile, bright NGC 4565 is a stop on many springtime telescopic tours of the northern sky as it lies in the faint but well-groomed constellation Coma Berenices. This sharp color image reveals the galaxy's bulging central core dominated by light from a population of older, yellowish stars. The core is dramatically cut by obscuring dust lanes which lace NGC 4565's thin galactic plane. A large island universe similar to our own Milky Way Galaxy, NGC 4565 is only about 30 million light-years distant, but over 100,000 light-years in diameter.  In fact, some consider NGC 4565 to be a prominent celestial masterpiece Messier missed.",
       "likes": "0",
-      "id": 11
+      "id": 1
     },
     {
-      "date": "2022-06-10",
-      "title": "Arp 286: Trio in Virgo",
-      "url": "https://apod.nasa.gov/apod/image/2206/Arp286-202203-CDK24-FLIPL9000-LRGB_NicolasROLLAND_signature_LD1024.jpg",
-      "explanation": "This colorful telescopic field of view features a trio of interacting galaxies almost 90 million light-years away, toward the constellation Virgo. On the right two spiky, foreground Milky Way stars echo the extragalactic hues, a reminder that stars in our own galaxy are like those in distant island universes. With sweeping spiral arms and obscuring dust lanes, the dominant member of the trio, NGC 5566, is enormous, about 150,000 light-years across. Just above it lies smaller, bluish NGC 5569. Near center a third galaxy, NGC 5560, is apparently stretched and distorted by its interaction with massive NGC 5566. The trio is also included in Halton Arp's 1966 Atlas of Peculiar Galaxies as Arp 286. Of course, such cosmic interactions are now appreciated as part of the evolution of galaxies.",
+      "date": "1999-01-10",
+      "title": "Venus' Once Molten Surface",
+      "url": "https://apod.nasa.gov/apod/image/9706/venus3_mag.jpg",
+      "explanation": "If you could look at Venus with radar eyes - this is what you might see. This computer reconstruction of the surface of Venus was created from data from the Magellan spacecraft.  Magellan orbited Venus and used radar to map our neighboring planet's surface between 1990 and 1994. Magellan found many interesting surface features, including the large circular domes, typically 25-kilometers across, that are depicted above. Volcanism is thought to have created the domes, although the precise mechanism remains unknown. Venus' surface is so hot and hostile that no surface probe has lasted more than a few minutes.",
       "likes": "0",
-      "id": 12
+      "id": 2
     },
     {
-      "date": "2022-06-08",
-      "title": "Ship Tracks over the Pacific Ocean",
-      "url": "https://apod.nasa.gov/apod/image/2206/ShipTracks_Terra_960.jpg",
-      "explanation": "What are those unusual streaks? Some images of planet Earth show clear bright streaks that follow the paths of ships.  Known as ship tracks, these low and narrow bands are caused by the ship's engine exhaust. Water vapor condenses around small bits of exhaust known as aerosols, which soon grow into floating water drops that efficiently reflect sunlight. Ship tracks were first discovered in 1965 in Earth images taken by NASA's TIROS satellites.  Multiple ship tracks are visible across the featured image that was captured in 2009 over the Pacific Ocean by the MODIS instrument on NASA's Terra satellite. Inspired by ship-tracks, some scientists have suggested deploying a network of floating buoys in the worlds' oceans that spray salt-aerosol containing sea-water into the air so that, with the help of the wind, streams of sunlight-reflecting clouds would also form.  Why do this?  These human-made clouds could reflect so much sunlight they might help fight global warming.    Today is: World Oceans Day",
+      "date": "2007-11-25",
+      "title": "An Iridescent Cloud Over Colorado",
+      "url": "https://apod.nasa.gov/apod/image/0711/iridescent_allen.jpg",
+      "explanation": "Why would a cloud appear to be different colors? A relatively rare phenomenon known as iridescent clouds can show unusual colors vividly or a whole spectrum of colors simultaneously. These clouds are formed of small water droplets of nearly uniform size. When the Sun is in the right position and mostly hidden by thick clouds, these thinner clouds significantly diffract sunlight in a nearly coherent manner, with different colors being deflected by different amounts. Therefore, different colors will come to the observer from slightly different directions. Many clouds start with uniform regions that could show iridescence but quickly become too thick, too mixed, or too far from the Sun to exhibit striking colors. This iridescent cloud was photographed above Boulder, Colorado last week.",
       "likes": "0",
-      "id": 13
+      "id": 3
     },
     {
-      "date": "2022-06-02",
-      "title": "Lunar Occultation of Venus",
-      "url": "https://apod.nasa.gov/apod/image/2206/OccultationVenusQuentinGineys1024.gif",
-      "explanation": "On May 27 Venus rose as the morning star, near the waning crescent Moon in a predawn sky already full of planets. It was close on the sky to the Moon's crescent and a conjunction of the second and third brightest celestial beacons was enjoyed by skygazers around the world. But seen from locations along a track through southeast Asia and the Indian Ocean the Moon actually passed in front of Venus in a lunar occultation. In this animated gif the 75 percent illuminated disk of Venus approaches and just begins to disappear behind the sunlit southwestern lunar limb. The telescopic frames used to construct it were captured from Reunion Island in the Indian Ocean around 4:50am local time, with the Moon and Venus very close to the eastern horizon. At the time Venus was over 180 million kilometers from Reunion Island, compared to a lunar distance of a mere 400 thousand kilometers or so. About 50 minutes later Venus emerged from behind the Moon.",
+      "date": "1999-02-02",
+      "title": "The Orion Nebula from Subaru",
+      "url": "https://apod.nasa.gov/apod/image/9902/orion_subaru.jpg",
+      "explanation": "The Orion Nebula (M42) shows a host of treasures when viewed in infrared light.  Some stars in the Trapezium, an open cluster of stars at the center, are only visible in infrared light.  The orange feature above center is called the Kleinman-Low Nebula, and appears greatly affected by newly forming central star IRc2.  The blue emission in this representative color photograph is caused by hot gas ionized by the Trapezium stars.  This is one of the first photographs ever taken through Japan's new Subaru Telescope.",
       "likes": "0",
-      "id": 14
-    },
-    {
-      "date": "2022-06-03",
-      "title": "A 10,000 Kilometer Galactic Bridge",
-      "url": "https://apod.nasa.gov/apod/image/2206/Oudoux-and-Jeff-Graphy-with10000km_c.jpg",
-      "explanation": "With this creative astro-collaboration you can follow the plane of our Milky Way Galaxy as it bridges northern and southern hemisphere skies. To construct the expansive composite nightscape, skies over Observatorio El Sauce in Chile (top) were imaged on the same date but 6 hours later than the skies over the Saint-Veran observatory in the French Alps. The 6 hour time-lag allowed Earth's rotation to align the Milky Way above domes at the two sites. All exposures were made with similar cameras and lenses mounted on simple tripods. A faint greenish airglow is visible in the dark Chilean sky that also features the Large and Small Magellanic Clouds near the observatory dome. In the French Alps light pollution is apparent, but the distant Andromeda Galaxy can still be spotted near the horizon in the northern night. On planet Earth the two observatories are separated by about 10,000 kilometers.",
-      "likes": "0",
-      "id": 15
-    },
-    {
-      "date": "2022-06-11",
-      "title": "The Road and the Milky Way",
-      "url": "https://apod.nasa.gov/apod/image/2206/MilkyWayArchCumeada-fb1200.jpg",
-      "explanation": "At night you can follow this road as it passes through the Dark Sky Alqueva reserve not too far from Alentejo, Portugal. Or you could stop, look up, and follow the Milky Way through the sky. Both stretch from horizon to horizon in this 180 degree panorama recorded on June 3. Our galaxy's name, the Milky Way, does refer to its appearance as a milky path in the sky. The word galaxy itself derives from the Greek for milk. From our fair planet the arc of the Milky Way is most easily visible on moonless nights from dark sky areas, though not quite so bright or colorful as in this image. The glowing celestial band is due to the collective light of myriad stars along the galactic plane too faint to be distinguished individually. The diffuse starlight is cut by dark swaths of the galaxy's obscuring interstellar dust clouds. Standing above the Milky Way arc near the top of this panoramic nightscape is bright star Vega, with the galaxy's central bulge near the horizon at the right.",
-      "likes": "0",
-      "id": 16
+      "id": 4
     }
   ]
 }

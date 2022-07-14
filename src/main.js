@@ -18,6 +18,7 @@ let key = '5x8jye659ANN9AhcRH6efnk0lMastohE8JxFLFV1'
 
 const fetchImages = async () => {
     let res = await fetch(`https://api.nasa.gov/planetary/apod?date=${year}-${month}-${day}&api_key=${key}`)
+    // console.log(res)
     let req = await res.json()
     return req
 }
@@ -46,8 +47,7 @@ const postImage = async () => {
     })
     let req = await res.json()
     newImage = await renderImage(req)
-    await imageContainer.append(newImage)
-    //footer.scrollIntoView()
+    imageContainer.append(newImage)
     imageContainer.lastChild.children[5].scrollIntoView()
 }
 
@@ -58,14 +58,51 @@ dateInput.addEventListener('change', () => {
     year = date.getUTCFullYear();
 })
 
-addImageBtn.addEventListener('click', (event) => {
-    if (day === undefined) window.alert('Please enter a date.')
+const randomImageBtn = document.getElementById('random-image')
+randomImageBtn.addEventListener('click', (event) => {
+    // Math.floor(Math.random() * (max - min + 1)) + min;
+    month = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+    day = Math.floor(Math.random() * (28 - 1 + 1)) + 1;
+    year = Math.floor(Math.random() * (2022 - 1995 + 1)) + 1995;
+
     day = day.toString()
     month = month.toString()
     year = year.toString()
+
+    if (day.length === 1) day = day.padStart(2, '0')
+    if (month.length === 1) month = month.padStart(2, '0')
     
+    date = new Date(`${year}-${month}-${day}T03:24:00`)
+    
+    day = date.getDate() + 1;
+    month = date.getMonth() + 1;
+    year = date.getUTCFullYear();
+    
+    day = day.toString()
+    month = month.toString()
+    year = year.toString()
+
     if (day === '32') day = '1'
-    if (month === '12') day = '1'
+    if (month === '12') month = '1'
+    if (day.length === 1) day = day.padStart(2, '0')
+    if (month.length === 1) month = month.padStart(2, '0')
+
+    console.log(date)
+    console.log(month, day, year)
+    postImage()
+    dateInput.value = ''
+    day, month, year = '', '', ''
+})
+
+addImageBtn.addEventListener('click', (event) => {
+    if (day === undefined) window.alert('Please enter a date.')
+
+    day = day.toString()
+    month = month.toString()
+    year = year.toString()
+
+    if (day === '32') day = '1'
+    if (month === '12') month = '1'
     if (day.length === 1) day = day.padStart(2, '0')
     if (month.length === 1) month = month.padStart(2, '0')
 
@@ -73,8 +110,6 @@ addImageBtn.addEventListener('click', (event) => {
     postImage()
     dateInput.value = ''
     day, month, year = '', '', ''
-    //window.alert('View your image below')
-    //imageContainer.lastChild.children[5].scrollIntoView()
 })
 
 const renderImage = async (input) => {
